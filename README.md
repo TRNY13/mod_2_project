@@ -1,3 +1,7 @@
 Hello this is my second module project using React, Axios, and React-Router. React-Redux was also required, but I was unable to fully implement it due to time constraints. I created a web application called Puppy Preview that allows users to search/look for different pictures of dogs via the Dog Api (https://dog.ceo/dog-api/). The user starts at the home page that calls on 3 random dog images of any breed to get them started. Afterwards, they can click on the breeds tab which will then bring out a list of EVERY dog breed at the bottom of the page. Now users can copy and paste and see 4 different images of each breed. This will prove useful to anyone looking to adopt a new pet or that is curious about animals in general.
 
 The main blocker I had was getting my search bar functionality to work completely. I tried many different methods and settled on using axios to .get from the API. I also would not have been able to get the search bar fully functional without the help from my Instructors. Redux was also a major blocker, however this one was mostly due to time management. I will continously update the web application and use Redux to manage the state. I also want to add animations, a drop down list for the search bar, live-typing, a modal or floating div for the breed info, and other design improvements as well.
+
+Feel free to check it out here! https://puppy-preview1.herokuapp.com/
+
+![image](https://user-images.githubusercontent.com/87204321/134122013-55555e2b-47e7-42fd-8c91-2fa1537382ba.png)
