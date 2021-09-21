@@ -1,3 +1,7 @@
+/* Most of my css for all of the components are in this file, I have 2 other pages of specific css. I made those
+that way from following standard convention that I learned from Udemy. */
+
+
 #header {
   background-color: rgb(41, 132, 173);
   font-size: 2rem;
@@ -7,13 +11,102 @@
   align-items: center;
 }
 
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: (255, 203, 5)
+  ;
+}
 
-/* body{
-  background-image: url(./Images/.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
+.form-containter{
+  display: flex;
+  justify-content: center;
+  
+}
+
+p{
+  color: rgb(41, 132, 173);
+}
+
+h1{
+  font:italic;
+  color: rgb(41, 132, 173);
+  
+}
+
+h1:hover{
+  transform: scale(1.10);
+}
+
+
+ul{
+  color: rgb(41, 132, 173);
+}
+
+img{
+  margin: 8%;
+  border-radius: 100px;
+  border-style: groove;
+  
+}
+
+/* I learned the transform css method from the basic React snapshot application */
+
+
+img:hover {
+  transform: scale(1.20);
+}
+
+#nav-bar {
   width: 100%;
-  flex-grow: 1;
-} */
+  background-color: solid color rgb(41, 132, 173);
+}
+
+#nav-bar ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+input{
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(41, 132, 173);
+  
+  border-radius: 100px;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+input:hover {
+  background-color: rgb(207, 173, 251);
+}
+
+button {
+  border-radius: 100px;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+button:hover{
+  transform: scale(1.10);
+}
+
+
+body{
+  background-color: rgb(255, 189, 151);
+}
+
+.test{
+  width: 40vh;
+  height: 40vh;
+}
